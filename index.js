@@ -37,8 +37,8 @@ class Game{
 		this.canvas.style.cursor = 'pointer';
 	}
 	handleClick(e){
-		let x = e.clientX;
-		let y = e.clientY;
+		let x = e.offsetX;
+		let y = e.offsetY;
 		x = Math.floor(x/Square.SIZE);
 		y = Math.floor(y/Square.SIZE);
 		//this.grid[x][y].toggleSet();
