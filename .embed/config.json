@@ -1,0 +1,10 @@
+{
+	"name":"Color Switcher",
+	"tags":["Game"],
+	"description":"Basic color switcher game made in an hour.",
+	"embed":{
+		"width":510,
+		"height":510,
+		"file":"index.html"
+	}
+}
